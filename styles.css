@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.lloyd {
+    font-weight: bold;
+}
+
+.jefferson {
+    color: green;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.intro {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.highlight {
+    color: green;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.photo img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.description {
+    padding: 20px 50px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
